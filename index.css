@@ -1,0 +1,378 @@
+body{
+	background-color: #f5f5f5 !important;
+}
+.red{
+	color: #ac0000 !important;
+	font-family: helvetica;
+	font-weight: 800;
+}
+.logo bold{
+background-color: #df2020;
+    color: #fff06c !important;
+    font-family: helvetica;
+    font-weight: 600;
+    border: 3px solid #1b1b1a;
+    font-size: 2rem !important;
+    padding: 2px;
+    border-radius: 7.5px;
+    text-shadow: 2px 2px #000000;
+}
+i span{
+	font-family: helvetica;
+}
+#jumbotron{
+	background-image: url("mobbg.png");
+	height: auto;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#jumbotron2{
+
+	height: auto;
+	width: 100%;
+}
+
+.heading2{
+	font-size: 1.5rem;
+}
+.heading3{
+	font-size: 1.1rem;
+}
+.float-mid{
+	padding: 8%;
+}
+
+@media (min-width: 992px){
+.float-mid{
+	padding: 8%;
+}
+.navbar{
+	padding: 0.75rem 6rem !important;
+	box-shadow: 1px 1px #cdcdcd;
+}
+#jumbotron{
+	background-image: url("bg.png");
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#jumbotron2{
+	
+	height: auto;
+	width: 100%;
+	
+}
+}
+.nav-link{
+	padding-right: 3.5rem !important;
+	font-size: 1.08rem;
+}
+
+.float-mid hr{
+	width: 40%;
+	float: left;
+
+}
+
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.fa-phone:before {
+  
+    content: "\f095";
+}
+#margin{
+	padding-bottom: 5%;
+}
+.btn-primary {
+    background-color: #1d1d1d !important;
+border-color: #1d1d1d !important}
+
+@media (max-width: 992px){
+
+	.scoll{
+		overflow-x: scroll !important;
+	}
+
+	.navbar{
+	
+	box-shadow: 1px 1px #cdcdcd;
+}
+	#margin{
+	padding-bottom: 22%;
+}
+	body{
+		overflow-x: hidden;
+	}
+	iframe{
+		width:100%;
+		margin: 0% !important;
+
+	}
+	.heading1{
+		font-size: 2rem;
+	}
+	#up{
+		margin-top: 10px;
+	}
+}
+
+.row{
+	width: 75% !important;
+	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 7.5%;
+
+}
+.card{
+	border-radius: 0px !important;
+}
+
+#parallax{
+
+  /* The image used */
+  background-image: url("trial.png");
+
+  /* Set a specific height */
+  min-height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+footer{
+	color: white;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+#mission{
+	 background-image: url("bg2.png");
+
+  /* Set a specific height */
+  min-height:auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cat-head{
+position: relative;
+    margin-left: 20%;
+    margin-top: 0px;
+    width: 60%;
+    border: 3px
+ solid white;
+    margin-bottom: 5% !important;
+    text-align: center;
+    top: 60px;
+
+}
+
+.subcat2{
+    font-family: helvetica !important;
+    font-weight: 700;
+    font-size: 300% !important;
+    color: white !important;
+    text-align: center;
+    margin-top: 20px
+ !important;
+    margin-bottom: 20	px
+ !important;
+}
+
+#text1{
+	    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: Helvetica;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #696969;
+  text-align: left;
+  padding: 8px;
+}
+
+.tab {
+    border-radius: 7px 7px 0px 0px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-bottom:none;
+  background-color: #c6c6c6;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    text-transform: uppercase;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+      background-color: #df2020;
+    color: #fff06c !important;
+    font-family: helvetica;
+    font-weight: 600;
+    border: 3px solid #1b1b1a;
+    font-size: 1.2rem !important;
+    padding: 9px;
+    border-radius: 7.5px 7.5px 0.5px 0.5px;
+    text-shadow: 2px 2px #000000;}
+    /* background-color: #f1f1f1;
+}
+
+/* Style the tab content */
+.tabcontent{
+background-color:#f1f1f1;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+tbody{
+	vertical-align: auto;
+	
+}
+
+button:focus{
+	outline:none !important;
+}
+
+
+.carousel-item img{
+	width: 100% !important;
+	height: 100%;
+
+}
+
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+
+}
+
+#overlay{
+  height: 90vh;
+    position: absolute !important;
+    z-index: 1;
+}
+#center-tag{
+  height: 90vh !important;
+}
+
+#carouselExampleIndicators{
+  height:100%
+}
+@media screen and (max-width: 900px) {
+#overlay{
+display: none;
+}
+}
+@media screen and (max-width: 786px) {
+
+#center-tag{
+  height: auto !important;
+}
+.carousel-item img{
+  width: 100% !important;
+  height: 30vh;
+
+}
+.row{
+  width: 95% !important;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 7.5%;
+
+}
+#overlay{
+  height: 30vh;
+    position: absolute !important;
+    z-index: 1;
+    margin-left: -12vw;
+    display:block;
+}
+}
